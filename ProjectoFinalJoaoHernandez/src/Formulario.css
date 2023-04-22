@@ -1,4 +1,28 @@
 .inputForm{
     display: flex;
     flex-direction: column;
+    row-gap: 0.5ch;
+    
+    
+}
+
+.inputTitle{
+    display: flex;
+    flex-direction: column;
+    font-family: impact, sans-serif;
+    color: #ffffff;
+}
+
+.inputText{
+    text-align: left;
+    font-family: impact, sans-serif;
+    color: #ffffff;
+    
+}
+
+.inputTextinside{
+    text-align: left;
+    font-family: impact, sans-serif;
+    color: #0a0707;
+    
 }
