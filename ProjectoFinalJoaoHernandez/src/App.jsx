@@ -26,8 +26,8 @@ function App() {
       {pacientes.map((paciente)=>{
         return <Paciente  nombre={paciente.mascota} 
                           duenno={paciente.duenno} 
-                          fecha={paciente.date} 
-                          hora={paciente.hour} 
+                          date={paciente.date} 
+                          hour={paciente.hour} 
                           sintomas={paciente.description} />
       }
       
