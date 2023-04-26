@@ -49,3 +49,10 @@
 .body {
   background-image: linear-gradient(#FFFFFF, rgb(255, 122, 89));
   }
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5ch;
+  }
+

@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './Formulario.css'
+
 const Formulario = () => {
     const[pacientes,setPacientes]=useState([])
     const[mascota,setMascota]=useState("")
@@ -16,7 +17,7 @@ const Formulario = () => {
             hour,
             description
         }
-        setPacientes([...pacientes,mascota,date,hour,description])
+        setPacientes([...pacientes,informacion])
         setMascota("")
         setDuenno("")
         setDate("")

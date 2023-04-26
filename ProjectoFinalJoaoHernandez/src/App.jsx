@@ -10,8 +10,15 @@ function App() {
 
   return (
     <div className="App">
+      <Header/>
+      <div className='row'>
+      <div className='col-sm-6'>
       <Formulario/>
-      
+      </div>
+      <div className='col-sm-6'>
+      <Formulario/>
+      </div>
+      </div>
     </div>
   )
 }
