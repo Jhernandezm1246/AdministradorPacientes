@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import './Formulario.css'
 
-const Formulario = () => {
-    const[pacientes,setPacientes]=useState([])
+
+const Formulario = ({pacientes,setPacientes}) => {
+    
     const[mascota,setMascota]=useState("")
     const[duenno,setDuenno]=useState("")
     const[date,setDate]=useState("")
@@ -28,7 +29,7 @@ const Formulario = () => {
 
   return (
     <div>
-        <h3 className='inputTitle'>CREAR CITA</h3>
+        
         <form className='inputForm' action="">
             <label className='inputText' htmlFor="">Nombre Mascota </label>
             <input className='inputTextinside' onChange={(e)=>{setMascota(e.target.value)}} value={mascota} type="text" />

@@ -1,10 +1,10 @@
 import React from 'react'
 import './Header.css'
 
-const Header = () => {
+const Header = ({titulo}) => {
   return (
     <div className='inputTextapp'>
-      <h2 >Administrador de Pacientes</h2>
+      <h2 >{titulo}</h2>
     </div>
   )
 }
