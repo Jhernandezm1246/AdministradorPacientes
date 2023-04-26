@@ -23,7 +23,7 @@ function Paciente({nombre,duenno,date,hour,sintomas}) {
         
         <label className='inputTextinside' htmlFor="">Sintomas </label>
         
-        <input className='inputTextinside' value={sintomas} type="text" />
+        <input className='inputTextinside' value={sintomas} type="text" /> 
         
 
         
