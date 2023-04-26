@@ -3,19 +3,30 @@ import './Paciente.css'
 
 function Paciente({nombre,duenno,date,hour,sintomas}) {
   return (
-    <div className='card text-bg-secondary mb-3'>
-        <div className='inputTextapp'>
-        <h3>Nombre:</h3>
-        <h5 className='inputTextinside'>{nombre}</h5>
-        <h3>Dueño:</h3>
-        <h5 className='inputTextinside'>{duenno}</h5>
-        <h3>Fecha:</h3>
-        <h5 className='inputTextinside'>{date} </h5>
-        <h3>Hora:</h3>
-        <h5 className='inputTextinside'>{hour}</h5>
-        <h3>Sintomas:</h3>
-        <h5 className='inputTextinside'>{sintomas}</h5>
-        </div>
+    <div className='card border-primary mb-3'>
+        
+        <label className='inputTextinside' htmlFor="">Nombre Mascota </label>
+        
+        <input className='inputTextinside' value={nombre} type="text" />
+        
+        <label className='inputTextinside' htmlFor="">Nombre Dueño </label>
+        
+        <input className='inputTextinside' value={duenno} type="text" />
+        
+        <label className='inputTextinside' htmlFor="">Fecha </label>
+        
+        <input className='inputTextinside' value={date} type="date" />
+        
+        <label className='inputTextinside' htmlFor="">Hora: </label>
+        
+        <input className='inputTextinside' value={hour} type="time" />
+        
+        <label className='inputTextinside' htmlFor="">Sintomas </label>
+        
+        <input className='inputTextinside' value={sintomas} type="text" />
+        
+
+        
     </div>
 
 
